@@ -1,0 +1,13 @@
+spring:
+    thymeleaf:
+        enabled: true
+        encoding: UTF-8
+        mode: HTML
+        suffix: .html
+        prefix: classpath:/templates/
+debug: true
+
+sse:
+    server:
+        host: 172.16.0.126
+        port: 8765
